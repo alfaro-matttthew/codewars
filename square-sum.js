@@ -24,4 +24,12 @@ function squareSum(numbers) {
 
 }
 
+// Best Practice: USE .reduce next time to combine values of an array
+
+// function squareSum(numbers){
+//     return numbers.reduce(function(sum, n){
+//       return (n*n) + sum;
+//     }, 0)
+//   }
+
 console.log(squareSum([1, 2]) + " = 5")
