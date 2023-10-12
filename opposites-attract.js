@@ -32,3 +32,10 @@ console.log(loveFunc(1, 4));
 // function lovefunc(flower1, flower2){
 //     return flower1 % 2 !== flower2 % 2;
 //   }
+
+
+// Another good example that if the two numbers are added together, they can be tested to see if they equal odd or even
+
+// function lovefunc(flower1, flower2){
+//     return (flower1 + flower2) % 2 === 1
+//   }
