@@ -2,6 +2,8 @@ function abbrevName(name){
 
     const words = name.split(' ');
 
+    console.log(words);
+
     if (words.length == 2) {
 
         const initial = words.map(word => word.charAt(0).toUpperCase());
